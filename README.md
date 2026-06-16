@@ -1,10 +1,10 @@
-📌 Problem Statement
+📌 Problem Statement:
 
 This project predicts the compressive strength of concrete based on its material composition and curing age using machine learning models.
 It helps in civil engineering to estimate concrete strength before actual testing, saving time and cost.
 
 
-📊 Dataset Information
+📊 Dataset Information:
     Source: UCI Machine Learning Repository
     Total Samples: 1030
     Features: 8 input features
@@ -20,7 +20,7 @@ It helps in civil engineering to estimate concrete strength before actual testin
         Age (days)
 
     
-🔄 Machine Learning Workflow
+🔄 Machine Learning Workflow:
    1. Data Collection
    2. Data Preprocessing
    3. Exploratory Data Analysis (EDA)
@@ -30,7 +30,7 @@ It helps in civil engineering to estimate concrete strength before actual testin
    7. Model Evaluation
 
    
-🤖 Models Used
+🤖 Models Used:
    1. Linear Regression
       MAE: 7.74
       RMSE: 9.79
@@ -40,20 +40,20 @@ It helps in civil engineering to estimate concrete strength before actual testin
 
 👉 Random Forest performed significantly better due to its ability to capture non-linear relationships.
 
-📊 Feature Importance (Random Forest)
+📊 Feature Importance (Random Forest):
     Age → Most important factor
     Cement → Highly influential
     Water → Moderately affects strength
     Other aggregates → Lower impact
 
     
-🧠 Key Insights
+🧠 Key Insights:
     Age and Cement are the most important predictors of concrete strength
     Water content significantly affects strength due to water-cement ratio
     Non-linear models perform better than linear regression
 
     
-🛠️ Tech Stack
+🛠️ Tech Stack:
     Python
     Pandas
     NumPy
